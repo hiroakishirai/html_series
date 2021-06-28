@@ -1,0 +1,214 @@
+@charset "utf-8";
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+a{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+body dt dd{
+  font-family: Meiryo, sans-serif;
+}
+
+/*----------------ヘッダー画像----------------*/
+#headerInner{
+  width: 1380px;
+  height: 600px;
+  clear: both;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+/*----------------Gナビ----------------*/
+.menu{
+  list-style: none;
+}
+
+#headerMenu{
+  width: 1080px;
+  height: 200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+header ul li{
+  float: left;
+}
+
+li img{
+  display: block;
+}
+
+#glogo{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.gnavi {
+  padding-top: 75px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  padding-right: 20px;
+}
+
+.gnavi:hover{
+  opacity:0.5;
+}
+/*----------------メインコンテンツ----------------*/
+#Contents{
+  clear: both;
+  margin-top: 20px;
+  width: 1080px;
+  height: 850px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+#Contents img:hover{
+  opacity:0.5;
+}
+
+.item {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 1.5;
+  color: dodgerblue;
+  margin-bottom: 40px;
+}
+
+dt{
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+dd{
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+#main1{
+  width: 300px;
+  height: 300px;
+  padding-right: 90px;
+  float: left;
+}
+
+#main2{
+  width: 300px;
+  height: 300px;
+  padding-right: 90px;
+  float: left;
+}
+
+#main3{
+  width: 300px;
+  height: 300px;
+  float: right;
+}
+
+#main4{
+  width: 300px;
+  height: 300px;
+  padding-right: 90px;
+  padding-top: 80px;
+  float: left;
+}
+
+#main5{
+  width: 300px;
+  height: 300px;
+  padding-right: 90px;
+  padding-top: 80px;
+  float: left;
+}
+
+#main6{
+  width: 300px;
+  height: 300px;
+  padding-top: 80px;
+  float: right;
+}
+/*----------------サブコンテンツ----------------*/
+#subContents{
+  clear: both;
+  width: 1080px;
+  height: 385px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+#subContents img:hover{
+  opacity:0.5;
+}
+
+#sub1{
+  margin-top: 25px;
+  margin-bottom: 100px;
+  float: left;
+}
+
+#sub2{
+  margin-top: 25px;
+  margin-bottom: 100px;
+  float: right;
+}
+/*----------------フッター----------------*/
+.footerInner {
+  clear: both;
+  width: 1080px;
+  height: 250px;
+  padding-left: 150px;
+  padding-right: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#05abe0+0,87e0fd+100 */
+  background: #05abe0; /* Old browsers */
+  background: -moz-linear-gradient(top, #05abe0 0%, #87e0fd 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #05abe0 0%,#87e0fd 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #05abe0 0%,#87e0fd 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#05abe0', endColorstr='#87e0fd',GradientType=0 ); /* IE6-9 */
+}
+/*--------------------フッタ文字---------------------*/
+#footerMoji li{
+  list-style: none;
+  color: #FFFFFF;
+  display: inline-block;
+  font-size: 15px;
+  margin-top: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+#footerMoji li:hover{
+  text-decoration: underline;
+}
+
+#siteKiyaku{
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+#footerLogo{
+  text-align: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+#copyright{
+  color: #FFFFFF;
+  font-size: 15px;
+  float: right;
+}
