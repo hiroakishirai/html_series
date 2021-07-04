@@ -26,7 +26,7 @@ li {
   flex-wrap: wrap;
   width: 1440px;
   height: 200px;
-  background-image:url('/Users/h.shirai/Desktop/port/hospital/img/header.jpg')
+  background-image:url('https://hiroakishirai.github.io/port/clinic/img/header.jpg')
 }
 
 .header_left{
