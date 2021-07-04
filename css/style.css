@@ -6,7 +6,7 @@ body {
     color: #fff;
     text-align: center;
     font-size: 0.8rem;
-    background: url('/image/bg_img.JPG') fixed;
+    background: url('https://hiroakishirai.github.io/port/image/bg_img.JPG') fixed;
     background-size: cover;
 }
 
