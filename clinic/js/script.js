@@ -10,7 +10,7 @@ const pics_src =
 let num = -1;
  
  
-function slideshow_timer(){
+function slideTimer(){
   if (num === 3){
     num = 0;
   } 
@@ -20,4 +20,4 @@ function slideshow_timer(){
   document.getElementById("mypic").src = pics_src[num];
 }
  
-setInterval(slide_time, 1300);
+setInterval(slideTimer, 1300);
