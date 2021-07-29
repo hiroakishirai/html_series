@@ -2,22 +2,20 @@
 'use strict';
 
 const pics_src = 
-["https://hiroakishirai.github.io/port/clinic/img/s1.jpg",
-"https://hiroakishirai.github.io/port/clinic/img/s2.jpg",
-"https://hiroakishirai.github.io/port/clinic/img/s3.jpg",
-"https://hiroakishirai.github.io/port/clinic/img/s4.jpg"];
+["/Users/h.shirai/Desktop/port/hospital/img/s1.jpg",
+"/Users/h.shirai/Desktop/port/hospital/img/s2.jpg",
+"/Users/h.shirai/Desktop/port/hospital/img/s3.jpg",
+"/Users/h.shirai/Desktop/port/hospital/img/s4.jpg"];
 
 let num = -1;
  
- 
-function slideTimer(){
-  if (num === 3){
+function slideTime() {
+  if (num === 2) {
     num = 0;
-  } 
-  else {
-    num ++;
+  } else {
+    num++;
   }
   document.getElementById("mypic").src = pics_src[num];
 }
- 
-setInterval(slideTimer, 3000);
+
+setInterval(slideTime, 3000);
