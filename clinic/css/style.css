@@ -95,7 +95,7 @@ li {
   display: flex;
   width: 1440px;
   height: 580px;
-  background: url('https://hiroakishirai.github.io/port/clinic/hospital/img/m2_back.png');
+  background: url('https://hiroakishirai.github.io/port/clinic/img/m2_back.png');
   background-size: cover;
   background-color: rgba(255, 255, 255, 0.5);
   background-blend-mode: lighten;
@@ -124,7 +124,7 @@ li {
   height: 580px;
   width: 1440px;
   margin-top: 60px;
-  background-image:url('https://hiroakishirai.github.io/port/clinic/hospital/img/s1.jpg');
+  background-image:url('https://hiroakishirai.github.io/port/clinic/img/s1.jpg');
   background-color: rgba(255, 255, 255, 0.5);
   background-blend-mode: lighten;
 }
