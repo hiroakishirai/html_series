@@ -20,4 +20,4 @@ function slideTimer(){
   document.getElementById("mypic").src = pics_src[num];
 }
  
-setInterval(slideTimer, 1300);
+setInterval(slideTimer, 3000);
